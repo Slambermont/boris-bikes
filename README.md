@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Boris Bikes Challenge
 
 First week Makers challenge!
@@ -85,3 +86,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
+=======
+# boris-bikes
+
+A program that will emulate all the docking stations, bikes, and infrastructure (repair staff, and so on) required to make TFL's dream a reality.
+>>>>>>> e23fd6e276a115845b04bbec00f8c9fa56239c6f
