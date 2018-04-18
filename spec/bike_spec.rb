@@ -1,4 +1,4 @@
-require 'bike'
+require 'DockingStation'
 describe Bike do
-  it {is_expected.to respond_to :working?}
+  it { is_expected.to respond_to :working? }
 end

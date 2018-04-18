@@ -1,11 +1,11 @@
-require 'docking_station'
+require 'DockingStation'
 
 describe DockingStation do
-  it { should respond_to :release_bike }
+  it { is_expected.to respond_to :release_bike }
 
-  it 'releases bike' do
-  bike = subject.release_bike
-  expect(bike).to be_working
-end
-
+  it 'releases a working bike' do
+    station = DockingStation.new
+    bike = station.release_bike
+    expect(bike.working?).to eq true
+  end
 end
